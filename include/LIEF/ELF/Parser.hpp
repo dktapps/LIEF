@@ -45,7 +45,7 @@ class Relocation;
 class LIEF_API Parser : public LIEF::Parser {
   friend class OAT::Parser;
   public:
-  static constexpr uint32_t NB_MAX_SYMBOLS         = 1000000;
+  static constexpr uint32_t NB_MAX_SYMBOLS         = 5000000;
   static constexpr uint32_t DELTA_NB_SYMBOLS       = 3000;
   static constexpr uint32_t NB_MAX_BUCKETS         = NB_MAX_SYMBOLS;
   static constexpr uint32_t NB_MAX_CHAINS          = 1000000;
